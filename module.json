@@ -19,7 +19,17 @@
     }
   ],
   "relationships": {
-    "systems": [],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "2.4.1",
+          "maximum": "3.3.9",
+          "verified": "3.3.1"
+        }
+      }
+    ],
     "requires": [
       {
         "id": "socketlib",
